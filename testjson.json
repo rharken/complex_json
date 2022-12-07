@@ -1,0 +1,39 @@
+{ "query_block": {
+    "select_id": 1,
+    "cost_info": {
+      "query_cost": "671.64"
+    },
+    "ordering_operation": {
+      "using_filesort": true,
+      "cost_info": {
+        "sort_cost": "100.00"
+      },
+      "table": {
+        "table_name": "test1",
+        "access_type": "range",
+        "possible_keys": [
+          "PRIMARY"
+        ],
+        "key": "PRIMARY",
+        "used_key_parts": [
+          "id"
+        ],
+        "key_length": "4",
+        "rows_examined_per_scan": 100,
+        "rows_produced_per_join": 100,
+        "filtered": "100.00",
+        "cost_info": {
+          "read_cost": "21.64",
+          "eval_cost": "20.00",
+          "prefix_cost": "41.64",
+          "data_read_per_join": "18K"
+        },
+        "used_columns": [
+          "id",
+          "c"
+        ],
+        "attached_condition": "(`proxydemo`.`test1`.`id` between 501747 and <cache>((504767 + 99)))"
+      }
+    }
+  }
+}

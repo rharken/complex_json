@@ -1,0 +1,24 @@
+{  "apps": [
+      { "appName": "App1",
+        "appPackage": "Package1",
+        "Ratings": [
+           { "Date": "2022-12-05",
+             "Rating": 100 },
+           { "Date": "2022-12-04",
+             "Rating": 99 }
+        ]
+      },
+      { "appName": "App2",
+        "appPackage": "Package1",
+        "Ratings": [
+           { "Date": "2022-12-05",
+             "Rating": 45 },
+           { "Date": "2022-12-04",
+             "Rating": 45 },
+           { "Date": "2022-12-03",
+             "Rating": 45 }
+        ]
+      }
+   ],
+   "id": "System1"
+}
